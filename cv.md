@@ -51,18 +51,11 @@
 * 《Autonomous-Collaborative Energy Optimization for Interconnected Energy Hubs Based on Transactive Control》(已录用)
 * 《配电网中电动汽车的实时滚动交易式充电管理》
 
-# 自我评价
+## 自我评价
 * 逻辑思维能力强，自我驱动、善于思考、积极输出
 * 严谨细致、认真负责，执行力强
 * 乐于接触新概念、技术和工具
 
-# TODO
-## 遇到的技术难题及如何克服
-## 设计过的功能点
-* 阻止同时编辑
-* 移动端通讯录
-## Electron和普通网页开发的差别
-## 后端与前端的差别
 ## 学过的计算机课程
 * 程序设计（python/C++)
 * 数据库
