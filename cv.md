@@ -46,6 +46,7 @@
 * 特高压奖学金
 * 思源电气奖学金数次
 * 上海交通大学优秀毕业生
+
 ## 科研经历
 * 《分布式电池储能系统参与自动发电控制的协调控制方法》[已发表](http://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2018&filename=DLXT201808010&v=MDU3NjRlckc0SDluTXA0OUVaSVI4ZVgxTHV4WVM3RGgxVDNxVHJXTTFGckNVUkxPZlpPWm1GeURuVXJyTElTSFQ=)
 * 《Autonomous-Collaborative Energy Optimization for Interconnected Energy Hubs Based on Transactive Control》(已录用)
