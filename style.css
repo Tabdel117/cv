@@ -1,0 +1,167 @@
+body {
+    font-size: 1em;
+    -webkit-print-color-adjust: exact;
+}
+.wrapper {
+    position: relative;
+    width: 700px;
+    margin: 0 auto;
+}
+h2, h3, ul {
+    margin: 5px 0 0 0;
+}
+h1 {
+    font-size: 1.4em;
+    text-align: center;
+}
+h1::before {
+    content: '';
+    background: url('https://img.icons8.com/metro/32/000000/user-female.png');
+    width: 24px;
+    height: 24px;
+    background-size: 24px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+h2 {
+    font-size: 1.2em;
+    border-bottom: #888 solid 0.5px;
+}
+h2::before {
+    content: '## ';
+    color: #888;
+}
+h3 {
+    font-size: 1em;
+}
+h3 .sub-title {
+    font-weight: normal;
+}
+h2:nth-child(2) {
+    display: none;
+}
+ul:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    font-size: 0.2em;
+}
+ul:nth-child(3) li {
+    list-style: none;
+    margin-right: 10px;
+}
+ul:nth-child(3) li img {
+    width: 16px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.education {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding-top: 3px; 
+}
+.education h3 {
+    width: 200px;
+    margin: 0 0 5px 0;
+    text-align: center;
+}
+.education ul {
+    width: calc(100% - 240px);
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 1px solid #ccc;
+    padding: 0 0 0px 20px;
+    margin: 0;
+}
+.education ul li {
+    list-style: none;
+}
+.education ul li:first-child {
+    color: #000;
+}
+.education ul:nth-child(2) li:nth-child(1)::after,
+.education ul:nth-child(2) li:nth-child(3)::before,
+.education ul:nth-child(4) li:nth-child(1)::after,
+.education ul:nth-child(4) li:nth-child(3)::before {
+    content: '-';
+    margin: 0 10px;
+}
+.education ul:nth-child(2) li:nth-child(2),
+.education ul:nth-child(4) li:nth-child(2) {
+    width: 160px;
+    text-align: center;
+}
+
+.education h3:nth-child(5) {
+    display: none;
+}
+.education ul:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    border: none;
+    width: 100%;
+    padding-bottom: 0;
+    margin-top: 10px;
+}
+.education ul:last-child li {
+    list-style: none;
+    color: #444;
+    border: 1px solid #ccc;
+    margin: 0 8px 8px 0;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 0.5em;
+    vertical-align: middle;
+}
+.education ul:last-child li::before {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 2px;
+    background-image: url('https://img.icons8.com/ios/50/000000/book-filled.png');
+    background-size: 12px 12px;
+    color: #888;
+    vertical-align: middle;
+}
+
+ul:nth-child(7) {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    margin-bottom: 0;
+}
+ul:nth-child(7) li {
+    list-style: none;
+    color: #444;
+    border: 1px solid #ccc;
+    margin: 0 10px 10px 0;
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-size: 0.5em;
+}
+ul:nth-child(7) li::before {
+    content: '# ';
+    color: #888;
+}
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+}
+.skill h3 {
+    width: 200px;
+    margin: 0 0 5px 0;
+}
+p {
+    margin: 5px 5px 10px 15px; 
+}
+.skill p {
+    width: calc(100% - 240px);
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 1px solid #ccc;
+    padding: 0px 0 0px 20px;
+    margin: 0;
+}
