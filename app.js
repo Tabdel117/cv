@@ -27,4 +27,4 @@ ${body}
 </body>
 </html
 `;
-fs.writeFileSync('./output.html', html);
+fs.writeFileSync('./index.html', html);
