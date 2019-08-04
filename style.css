@@ -103,14 +103,13 @@ ul:nth-child(3) li img {
     border: none;
     width: 100%;
     padding-bottom: 0;
-    margin-top: 10px;
+    justify-content: center;
 }
 .education ul:last-child li {
     list-style: none;
     color: #444;
     border: 1px solid #ccc;
-    margin: 0 8px 8px 0;
-    padding: 2px 5px;
+    margin-right: 8px;
     border-radius: 3px;
     font-size: 0.5em;
     vertical-align: middle;
@@ -133,35 +132,40 @@ ul:nth-child(7) {
     padding-left: 0px;
     margin-bottom: 0;
 }
-ul:nth-child(7) li {
+.skill ul li {
     list-style: none;
     color: #444;
     border: 1px solid #ccc;
-    margin: 0 10px 10px 0;
-    padding: 3px 5px;
+    margin-right: 10px;
     border-radius: 3px;
     font-size: 0.5em;
 }
-ul:nth-child(7) li::before {
+.sub-skill {
+    display: flex;
+    align-items: center;
+}
+.skill ul li::before {
     content: '# ';
     color: #888;
 }
-.skill {
+.skill ul {
     display: flex;
     flex-wrap: wrap;
 }
 .skill h3 {
-    width: 200px;
-    margin: 0 0 5px 0;
+    margin: 0 0 1px 10px;
 }
 p {
     margin: 5px 5px 10px 15px; 
 }
-.skill p {
-    width: calc(100% - 240px);
+.sub-skill p {
     display: flex;
     flex-wrap: wrap;
-    border-left: 1px solid #ccc;
-    padding: 0px 0 0px 20px;
-    margin: 0;
+    border-left: 2px solid #ccc;
+    padding: 0px 0 0px 10px;
+    margin: 5px 0 0 10px;
+}
+
+a {
+    color: #000;
 }
